@@ -1,0 +1,23 @@
+# The 21 linked skills: one per stage, each installed from its own repository, unchanged.
+# Licenses and why each one won its stage: CREDITS.md. Checked 2026-11-11.
+coreyhaines31/marketingskills@customer-research
+coreyhaines31/marketingskills@competitor-profiling
+coreyhaines31/marketingskills@pricing
+addyosmani/agent-skills@spec-driven-development
+pbakaus/impeccable@impeccable
+heygen-com/hyperframes@hyperframes
+addyosmani/agent-skills@frontend-ui-engineering
+addyosmani/agent-skills@api-and-interface-design
+mattpocock/skills@diagnosing-bugs
+mattpocock/skills@tdd
+cloudflare/security-audit-skill
+addyosmani/agent-skills@ci-cd-and-automation
+coreyhaines31/marketingskills@copywriting
+coreyhaines31/marketingskills@social
+coreyhaines31/marketingskills@analytics
+coreyhaines31/marketingskills@launch
+affaan-m/ECC@investor-materials
+phuryn/pm-skills@pre-mortem
+danium/lateral-thinking@inversion
+JuliusBrussee/caveman@caveman
+DietrichGebert/ponytail@ponytail

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 330" role="img" aria-label="Four measurements from this pack's own test reports">
+  <style>
+    .bg{fill:#0d1117}.bar{fill:#161b22}.t{font:14px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#c9d1d9}
+    .d{fill:#8b949e}.g{fill:#3fb950}.y{fill:#d29922}.h{font-weight:700;fill:#f0f6fc}
+  </style>
+  <rect class="bg" width="880" height="330" rx="10"/>
+  <rect class="bar" width="880" height="34" rx="10"/><rect class="bar" y="20" width="880" height="14"/>
+  <circle cx="20" cy="17" r="5.5" fill="#ff5f56"/><circle cx="40" cy="17" r="5.5" fill="#ffbd2e"/><circle cx="60" cy="17" r="5.5" fill="#27c93f"/>
+  <text class="t d" x="440" y="22" text-anchor="middle">measured, not claimed  ·  reports/</text>
+  <text class="t" x="24" y="68"><tspan class="d">$</tspan> skills-doctor            <tspan class="d"># on a machine with 280 skills installed</tspan></text>
+  <text class="t" x="24" y="90"><tspan class="y">  11 broken · 4 duplicate names · 39 skills all answer "design"</tspan></text>
+  <text class="t" x="24" y="126"><tspan class="d">$</tspan> mem-search "helper agent said done but nothing was edited"</text>
+  <text class="t" x="24" y="148"><tspan class="g">  right note found: 18/20 questions, ~265 tokens each</tspan>   <tspan class="d">(grep: ~25,000+)</tspan></text>
+  <text class="t" x="24" y="184"><tspan class="d">$</tspan> design-review  two live pages</text>
+  <text class="t" x="24" y="206"><tspan class="g">  3/3 known defects caught · 5 brand choices correctly left alone</tspan></text>
+  <text class="t" x="24" y="242"><tspan class="d">$</tspan> search-visibility  a "tracker" page</text>
+  <text class="t" x="24" y="264"><tspan class="g">  raw HTML lists 0 of its items (a sibling page lists 75): found</tspan></text>
+  <text class="t h" x="24" y="304">30 skills, not 300. One per stage, each one tested.</text>
+</svg>

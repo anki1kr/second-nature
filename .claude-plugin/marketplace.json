@@ -1,0 +1,13 @@
+{
+  "name": "second-nature",
+  "owner": {
+    "name": "anki1kr"
+  },
+  "plugins": [
+    {
+      "name": "second-nature",
+      "source": "./",
+      "description": "30 skills, not 300: one tested skill per stage, from idea to launch. Works in any agent that reads SKILL.md."
+    }
+  ]
+}

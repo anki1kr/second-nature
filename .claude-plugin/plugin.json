@@ -1,0 +1,12 @@
+{
+  "name": "second-nature",
+  "version": "0.1.0",
+  "description": "30 skills, not 300: one tested skill per stage, from idea to launch. Works in any agent that reads SKILL.md.",
+  "author": {
+    "name": "anki1kr",
+    "url": "https://github.com/anki1kr"
+  },
+  "homepage": "https://github.com/anki1kr/second-nature",
+  "license": "MIT",
+  "skills": "./skills"
+}

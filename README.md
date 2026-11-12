@@ -140,6 +140,8 @@ number).
 One rule: a skill is added only if it beats what is already here on a real test, and it replaces that skill instead
 of sitting next to it. The count stays near 30. Open an issue with the test you ran.
 
+Every pull request is checked by CI (strict YAML, skills-doctor, every test) and reviewed by CodeRabbit with this repo's own rules (`.coderabbit.yaml`).
+
 ## Credits and license
 
 The built-in skills, scripts and docs are MIT. The linked skills belong to their authors and keep their own

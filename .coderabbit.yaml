@@ -1,0 +1,43 @@
+# CodeRabbit reviews every pull request (free for public repositories). Keys: https://docs.coderabbit.ai/reference/configuration
+language: en-US
+reviews:
+  profile: assertive
+  high_level_summary: true
+  auto_review:
+    enabled: true
+    drafts: false
+  path_filters:
+    - "!**/__pycache__/**"
+    - "!**/.pytest_cache/**"
+  path_instructions:
+    - path: "skills/**/SKILL.md"
+      instructions: |
+        This is an agent skill. Check that:
+        - the frontmatter parses as strict YAML (a value holding ": " or " #" must be quoted, or installers skip the skill),
+          `name` equals the folder name, and `description` says WHEN to use the skill and when not to;
+        - every number, quota, price, law section or claim about another tool has a source or is marked unverified;
+        - the skill ends with a check that proves its work was done (tests, a measured result), not "looks good";
+        - nothing is personal or project-specific (no home paths, private site names, keys, emails);
+        - it does not overlap another skill in this repo: say which one if it does.
+    - path: "skills/**/*.py"
+      instructions: |
+        Standard library only unless a requirements file sits next to it. Never print, log or return an API key or a
+        response body that could contain one. Every new behaviour needs a test that can fail.
+    - path: "memory/**"
+      instructions: |
+        The memory vault runs on the user's machine: no network calls, never overwrite an existing vault, keep boot files
+        within their byte budgets.
+    - path: "README*.md"
+      instructions: |
+        Every number must come from the reports/ folder or a linked source. Flag marketing words without evidence.
+    - path: "recommended.txt"
+      instructions: |
+        Each line is owner/repo@skill installed from the author's own repository. Check the repository exists, is public
+        and has a license, and that CREDITS.md names it with that license.
+  tools:
+    shellcheck:
+      enabled: true
+    ruff:
+      enabled: true
+chat:
+  auto_reply: true
